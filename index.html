@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Aboutt</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="form1">
+            <div class="Get-in"> 
+                <h1 class="title1">GET-IN!</h1>
+                <span class="sub-title">24/7 we will answer your questions!</span>
+            </div>
+
+            <div class="">
+                <label>Name:
+                <input type="text" name="name" placeholder="Your name" required autocomplete="text"/>
+            </div>
+            </label>
+            
+            <div>
+            <label>Email:
+            <input type="text" name="email" placeholder="for@example.com" required autocomplete="text"/>
+            </div>
+        </label>
+        
+            <div>
+                <label>Phone Number:
+                <input type="number" name="number" placeholder="+234-900-0777-611" required autocomplete="text" />
+            </label>
+            </div>
+
+            <div>
+                <label>Message:
+                <textarea name="message" placeholder="Talk to me....." maxlength={210} rows={10} required autocomplete="text"></textarea>
+            </label>
+            </div>
+
+            <label>
+                <input type="checkbox" name="" value={"message"}/>&nbsp;
+                By submitting this form, you understand and agree to our <span className="privacy"><a href="#">Privacy Policy.</a></span></label>
+
+            <button type="submit" class="send-message">Send message</button>
+
+        </form>
+    </div>
+</body>
+</html>
